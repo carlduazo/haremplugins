@@ -1,0 +1,60 @@
+/* Resets */
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html{
+  height: 100%;
+
+  background-color: #F4F5F5;
+}
+
+body{
+  font-family: 'benton-sans', 'Roboto', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+
+	font-weight: 600;
+}
+
+p {
+  margin: 0 0 12px;
+}
+
+a {
+  color: #00C4F4;
+
+	text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #0055E3;
+}
+
+ul {
+  padding: 0;
+}
+
+figure {
+	margin: 0;
+}

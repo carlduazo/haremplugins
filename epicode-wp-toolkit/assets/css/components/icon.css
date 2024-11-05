@@ -1,0 +1,16 @@
+/* Icon */
+
+.icon {
+  display: inline-block;
+  position: relative;
+  top: -1px;
+  width: 1.125rem;
+  height: 1.125rem;
+  vertical-align: middle;
+
+  fill: currentColor;
+}
+
+  .icon--prefix {
+    margin-right: 4px;
+  }

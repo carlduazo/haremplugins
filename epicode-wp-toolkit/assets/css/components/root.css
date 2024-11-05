@@ -1,0 +1,26 @@
+/* Root */
+
+.root {
+  height: 100%;
+}
+
+  .root__inner {
+    position: absolute;
+    top: 0;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+    max-width: 480px;
+    height: 280px;
+  	vertical-align: middle;
+
+    margin: auto;
+  }
+
+  /* Mobile */
+
+  @media(max-width: 425px) {
+    .root__inner {
+      height: calc(100% - 190px);
+    }
+  }

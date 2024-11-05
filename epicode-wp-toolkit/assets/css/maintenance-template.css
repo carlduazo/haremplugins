@@ -1,0 +1,66 @@
+@import url('https://use.typekit.net/zfh7stu.css');
+@import url("./reset.css");
+@import url("./components/layout.css");
+@import url("./components/list.css");
+@import url("./components/panel.css");
+@import url("./components/icon.css");
+@import url("./components/root.css");
+
+/* App */
+
+.maintenance {}
+
+  .maintenance__header {
+    margin-bottom: 8px;
+  }
+
+  .maintenance__logo {
+    width: 200px;
+    height: 50px;
+
+    background-size: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+  }
+
+  .maintenance__title {
+    font-size: 48px;
+    text-align: right;
+  	color: #D9DBDC;
+  }
+
+  .maintenance__text {
+    white-space: pre-wrap;
+  }
+
+.links-list {
+  margin-top: 12px;
+  margin-bottom: -12px;
+}
+
+/* Media Queries */
+
+/* Table */
+@media(max-width: 768px) {
+  .maintenance {
+    padding: 0 24px;
+  }
+}
+
+/* Mobile */
+@media(max-width: 360px) {
+  .maintenance {
+    padding: 24px;
+  }
+
+    .maintenance__header {
+      position: relative;
+      display: block;
+    }
+
+    .maintenance__header-title {
+      position: absolute;
+      display: block;
+    }
+}
