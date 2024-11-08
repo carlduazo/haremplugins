@@ -543,7 +543,7 @@ class Epic_WordpressOptions {
 
     // Default hidden menu's
     $epic_default_hidden_menus = array(
-      'plugins.php',
+      // 'plugins.php',
       'w3tc_dashboard'
     );
 
